@@ -1,3 +1,4 @@
+string = str(input("Input : "))
 def rotate(n):
     a = list(n)
     if len(a) == 0:
@@ -8,10 +9,10 @@ def rotate(n):
         l += ["".join(a)]
     print(l)
 
-string = str(input())
+
 print("Your input is :" ,string)
-print("The rotation is :")
-rotate(string)
+print("The rotation is :",rotate(string))
+
 
 
 # Input : Python
